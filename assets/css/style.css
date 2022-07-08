@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-position: initial;  
+    background-repeat: repeat; 
+    overflow: auto;
+}
+.logo{
+    color: black;
+}
+.container{
+    width: 100%;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding:  15px;
+  margin: 0 auto;
+}
+.headerr .container{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu-list{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 55px;
+}
+.headerr .logo{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    line-height: 37px;
+    color: green+blue;
+    font-family: Fjalla One;
+}
+.menu-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+font-size: 16px;
+line-height: 17px;
+padding-bottom: 10px;
+color: #2ff8a4;
+
+}
+.menu-link:hover{
+    color: #F38181;
+    border-bottom: 3px solid #F38181;
+}
+.first .mainn{
+    position: absolute; /* Абсолютное позиционирование */
+    width: 910px; /* Ширина блока */
+    height: 600px; /* Высота блока */
+    margin: auto; /* Отступ от блока */
+    top: 10; /* Положение блока от верхнего края */
+    bottom: 0; /* Положение блока от нижнего края */
+    left: 0; /* Положение блока от левого края */
+    right: 0; /* Положение блока от правого края */
+    background: rgb(255, 255, 255); /* Цвет фона блока */
+    padding: 10px; /* Отступ внутри блока */
+    background-attachment: fixed;
+    background-size: 400%;
+    background-repeat: repeat;
+
+}
+
+.bobik{
+text-align: center;
+font-size: 35px;
+font-family: roboto Condensed;
+
+}
+.bebra{
+    text-align: center;
+    font-size: 23px;
+    font-family: Roboto Condensed;
+}
+.center-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.tartaly{
+    position: absolute; /* Абсолютное позиционирование */
+    width: 1000px; /* Ширина блока */
+    height: 600px; /* Высота блока */
+    margin: auto; /* Отступ от блока */
+    top: 10; /* Положение блока от верхнего края */
+    bottom: 0; /* Положение блока от нижнего края */
+    left: 0; /* Положение блока от левого края */
+    right: 0; /* Положение блока от правого края */
+    background: rgb(255, 255, 255); /* Цвет фона блока */
+    padding: 10px; /* Отступ внутри блока */
+    background-attachment: fixed;
+    background-size: 400%;
+    background-repeat: repeat;
+}
+.bomba{
+    font-family:roboto Condensed ;
+    text-align: center;
+    font-size: 30px;
+}
